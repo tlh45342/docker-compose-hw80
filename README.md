@@ -11,7 +11,9 @@ docker container prune -f
 ```
 
 To play in:
+```bash
 docker run -p 0.0.0.0:80:80/tcp -it hw80 /bin/sh
+```
 
 ```bash
 git clone https://github.com/tlh45342/docker-compose-hw80

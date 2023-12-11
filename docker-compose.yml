@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  hw80:
+    container_name: hw80
+    build: .
+    image: hw80
+    ports:
+      - "80:80"

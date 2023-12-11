@@ -19,3 +19,11 @@ docker run -p 0.0.0.0:80:80/tcp -it hw80 /bin/sh
 git clone https://github.com/tlh45342/docker-compose-hw80
 $ docker-compose up
 ```
+
+# Also
+
+Should work with
+
+'''bash
+docker buildx build -t hw80 .
+```

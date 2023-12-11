@@ -24,6 +24,6 @@ $ docker-compose up
 
 Should work with
 
-'''bash
+```bash
 docker buildx build -t hw80 .
 ```

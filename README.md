@@ -6,7 +6,9 @@ Example Dockerfile and compose file which constructs "image" named HW80.  Which 
 
 # Cleaning house:
 Prune non running containers. (Be sure this is what you want to do)
+````bash
 docker container prune -f
+```
 
 To play in:
 docker run -p 0.0.0.0:80:80/tcp -it hw80 /bin/sh

@@ -10,7 +10,7 @@ Prune non running containers. (Be sure this is what you want to do)
 docker container prune -f
 ```
 
-To play in:
+To play with manually for evaluation.
 ```bash
 docker run -p 0.0.0.0:80:80/tcp -it hw80 /bin/sh
 ```
